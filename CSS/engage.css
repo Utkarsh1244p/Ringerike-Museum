@@ -6,3 +6,52 @@
 .engage-introduction h1 {
     font-size: 2.5rem;
 }
+
+.engage-introduction h1, .engage-info h2 {
+    font-family: var(--font-roboto);
+}
+
+.info-cards {
+    margin: 2rem 0;
+}
+
+
+/*
+
+@media screen and (min-width: 600px) {
+    .engage-grid {
+        display: grid;
+    }
+
+    .engage-grid :nth-child(1) {
+        background-color: pink;
+    }
+}*/
+
+@media screen and (min-width: 768px) {
+    .engage-info {
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .first-item {
+        grid-column: 2;
+    }
+
+    .second-item {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .fifth-item {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .engage-info img {
+        padding: 5%;
+    }
+    
+}

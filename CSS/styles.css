@@ -32,6 +32,22 @@ main {
     flex: 1;
 }
 
+/*Utility classes*/
+
+.rounded-corner {
+    border-radius: 50px;
+}
+
+.circle {
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
 .block {
     display: block;
 }
@@ -49,12 +65,16 @@ main {
 .pink-border {
     border: 5px solid #FF5470;
     border-radius: 25px;
+    padding: 0 1.5rem;
 }
 
 .aqua-border {
     border: 5px solid #00EBC7;
     border-radius: 25px;
+    padding: 0 1.5rem;
 }
+
+/*Font styles*/
 
 .barlow-semi-condensed-light {
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -82,8 +102,16 @@ main {
   font-style: normal;
 }
 
+@media screen and (min-width: 768px) {
+    .hidden {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .padding {
         padding: 0 20%;
     }
 }
+
+
