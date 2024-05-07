@@ -33,13 +33,13 @@
 .container {
     padding: 2rem;
     position: relative;
-    max-width: 48rem;
+    max-width: 60rem;
     margin: 0 auto;
 }
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+   /* aspect-ratio: 16 / 9;*/
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -47,10 +47,35 @@
     overflow-x: hidden;
 }
 
-.slider img {
+#card-1, #card-2, #card-3 {
+    display: flex;
+}
+
+#card-1 {
+    background-color: var(--color-aqua);
+}
+
+#card-2 {
+    background-color: var(--color-yellow);
+}
+
+#card-3 {
+    background-color: var(--color-pink);
+}
+
+.card-text {
+    padding: 1rem;
+    place-self: center;
+}
+
+.card {
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+}
+
+.card > img {
+    width: 50%;
 }
 
 .slider-nav {
