@@ -3,10 +3,20 @@
     object-fit: cover;
 }
 
+
 .engage-introduction h1 {
     font-size: 4rem;
     font-family: var(--font-patua);
+    /*filter: drop-shadow(60px 20px 4px #7e7d7d);*/
 }
+
+.second-line {
+    transform: translate(20%);
+}
+.third-line {
+    transform: translate(35%);
+}
+
 
 .engage-info h2 {
     font-family: var(--font-roboto);
@@ -15,6 +25,30 @@
 .info-cards {
     margin: 2rem 0;
 }
+
+.animated-shadow {
+    text-shadow: 0 0 0 transparent; /* Starttilstand: Ingen skygge */
+    animation: shadow-animation 6s infinite; /* Animer skyggen */
+}
+
+.animated-shadow:nth-child(2) {
+    animation-delay: 2s; /* Forsett animasjonen 2 sekunder etter start */
+}
+
+.animated-shadow:nth-child(3) {
+    animation-delay: 4s; /* Forsett animasjonen 4 sekunder etter start */
+}
+
+@keyframes shadow-animation {
+    0%, 100% {
+        text-shadow: 10px 15px 10px rgba(56, 56, 56, 0.8); /* Start- og sluttilstand: Skyggeeffekt */
+    }
+    50% {
+        text-shadow: none; /* Midtveis: Ingen skygge */
+    }
+}
+
+
 
 @media screen and (min-width: 768px) {
     .engage-info {
