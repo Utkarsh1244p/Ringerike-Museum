@@ -1,0 +1,47 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+    font-family: "Schibsted Grotesk";
+    flex-wrap: wrap;
+}
+
+.so-me h3 {
+    padding: 2rem 0 1rem;
+}
+
+.so-me p {
+    padding: 0 2rem 0 0;
+}
+
+.so-me-icons {
+    display: flex;
+}
+
+.so-me-icons p:hover, .footer-links a:hover {
+    color: var(--color-pink);
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    padding: 1rem;
+    font-size: 1.1rem;
+    
+}
+
+.links-first, .links-second {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.footer-links img {
+    width: 35px;
+}

@@ -1,0 +1,8 @@
+.engage-introduction img {
+    aspect-ratio: 4 / 1;
+    object-fit: cover;
+}
+
+.engage-introduction h1 {
+    font-size: 2.5rem;
+}

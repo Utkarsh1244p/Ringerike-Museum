@@ -1,0 +1,82 @@
+nav,
+#nav-checkbox {
+    display: none;
+}
+
+#nav-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+header p:hover {
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
+
+header p {
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Schibsted Grotesk";
+}
+
+.nav-bar :nth-child(1) {
+    padding: 0.5rem 1rem;
+}
+
+nav {
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    display: block;
+    padding: 2rem 5rem;
+    border-bottom: 1px solid rgb(21, 21, 21);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav a:first-child {
+    text-align: right;
+    padding: 2rem 0;
+    border-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav a:last-child {
+    border-bottom: 0;
+}
+
+.nav-list:hover {
+    color: var(--color-yellow);
+}
+
+.logo {
+    min-width: 15rem;
+}
+
+.primary-nav {
+    padding: 0 2rem;
+    margin: 0 -2rem;
+    border-radius: 0 0 10px 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-bar :nth-child(1) {
+        margin: 1rem;
+    }
+}
