@@ -28,6 +28,10 @@ header p {
     justify-content: space-between;
 }
 
+.nav-bar > label {
+    place-self: center;
+}
+
 .nav-bar :nth-child(1) {
     padding: 0.5rem 1rem;
 }

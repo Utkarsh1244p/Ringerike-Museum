@@ -37,9 +37,12 @@
     margin: 0 auto;
 }
 
+.container > h2 {
+    text-align: center;
+}
+
 .slider {
     display: flex;
-   /* aspect-ratio: 16 / 9;*/
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -105,10 +108,27 @@
     .introduction h1 {
         font-size: 2.5rem;
     }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card-text {
+        margin: auto;
+    }
+
+    .card h3 {
+        text-align: center;
+    }
+
+    .card > img {
+        width: 100%;
+    }
+
 }
 
-@media screen and (max-width: 400px) {
-    .introduction h1 {
-        font-size: 2rem;
+@media screen and (max-width: 600px) {
+    .container > h2 {
+        font-size: 1.5rem;
     }
 }

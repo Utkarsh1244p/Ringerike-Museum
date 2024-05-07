@@ -2,46 +2,23 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
+    /*margin-top: auto; Plasserer footer nederst */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 0 8rem;
-    font-family: "Schibsted Grotesk";
-    flex-wrap: wrap;
+    padding: 2rem 10rem;
+    margin-top: 3rem;
 }
 
-.so-me h3 {
-    padding: 2rem 0 1rem;
+footer h2 {
+    font-size: 1.5rem;
 }
 
-.so-me p {
-    padding: 0 2rem 0 0;
-}
-
-.so-me-icons {
-    display: flex;
-}
-
-.so-me-icons p:hover, .footer-links a:hover {
-    color: var(--color-pink);
-    cursor: pointer;
-}
-
-.footer-links {
-    display: flex;
-}
-
-.footer-links a {
+.footer-links > a {
+    display: block;
     padding: 1rem;
-    font-size: 1.1rem;
-    
 }
 
-.links-first, .links-second {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.footer-links img {
-    width: 35px;
+.footer-links > a:hover {
+    color: var(--color-pink);
 }
