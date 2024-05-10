@@ -15,10 +15,19 @@
     object-fit: cover;
 }
 
-
 .introduction {
     padding: 0 20%;
 }
+
+.introduction-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction-text > p {
+    width: 45%;
+}
+
 
 .event-card img {
     width: 20%;
@@ -28,6 +37,7 @@
     font-family: var(--font-patua);
     margin: 2rem 0 2rem 0;
     font-size: 3.5rem;
+    transform: translate(-5%);
 }
 
 .container {
@@ -49,6 +59,7 @@
     border-radius: 0.5rem;
     overflow-x: hidden;
 }
+
 
 #card-1, #card-2, #card-3 {
     display: flex;
@@ -81,6 +92,10 @@
     width: 50%;
 }
 
+.slider-wrapper {
+    max-height: fit-content;
+}
+
 .slider-nav {
     display: flex;
     column-gap: 1rem;
@@ -102,6 +117,16 @@
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .introduction-text {
+        display: block;
+    }
+
+    .introduction-text > p {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 750px) {

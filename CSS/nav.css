@@ -68,7 +68,7 @@ nav a:last-child {
 }
 
 .logo {
-    min-width: 15rem;
+    max-height: 7.5rem;
 }
 
 .primary-nav {
