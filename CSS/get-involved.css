@@ -1,0 +1,53 @@
+.gi-introduction img {
+    aspect-ratio: 32 / 9;
+    object-fit: cover;
+}
+
+.gi-introduction {
+    margin-bottom: 2rem;
+}
+
+.gi-cards article:nth-child(1) {
+    background-color: var(--color-pink)
+}
+
+.gi-cards article:nth-child(2) {
+    background-color: var(--color-aqua)
+}
+
+.gi-cards article:nth-child(3) {
+    background-color: var(--color-yellow)
+}
+
+.gi-introduction h1, .gi-cards h2 {
+    font-family: "Roboto Mono";
+}
+
+.gi-cards article {
+    padding: 1rem 1.5rem;
+    margin: 1rem 10%;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .gi-cards {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2rem;
+    }
+    .gi-cards article {
+        padding: 1rem 1.5rem;
+        margin: 1rem 0.5rem;
+        max-width: 30%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .gi-cards {
+        margin: 0 5rem;
+    }
+}
+
+
+
+
