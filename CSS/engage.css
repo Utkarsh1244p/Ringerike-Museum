@@ -50,11 +50,10 @@
         text-shadow: 30px 30px 6px var(--color-aqua); 
     }
     100% {
-        text-shadow: none; /* Fjerner skygge ved slutten av animasjonen */
+        text-shadow: none; 
     }
 }
 
-/* Animasjon for andre h1-element (blå farge) med en liten forsinkelse */
 @keyframes shadow-animation-2 {
     0% {
         text-shadow: none; 
@@ -66,11 +65,10 @@
         text-shadow: 30px 30px 6px var(--color-yellow); 
     }
     100% {
-        text-shadow: none; /* Fjerner skygge ved slutten av animasjonen */
+        text-shadow: none;
     }
 }
 
-/* Animasjon for tredje h1-element (grønn farge) med en litt større forsinkelse */
 @keyframes shadow-animation-3 {
     0% {
         text-shadow: none; 
@@ -82,26 +80,24 @@
         text-shadow: 30px 30px 6px var(--color-pink); 
     }
     100% {
-        text-shadow: none; /* Fjerner skygge ved slutten av animasjonen */
+        text-shadow: none;
     }
 }
 
-/* Bruk av animasjon basert på klassenavn */
+
 .shadow-1 {
-    animation: shadow-animation-1 12s infinite; /* Setter animasjonen for første h1-element */
+    animation: shadow-animation-1 12s infinite;
 }
 
 .shadow-2 {
-    animation: shadow-animation-2 12s infinite; /* Setter animasjonen for andre h1-element */
+    animation: shadow-animation-2 12s infinite; 
     animation-delay: 4s; 
 }
 
 .shadow-3 {
-    animation: shadow-animation-3 12s infinite; /* Setter animasjonen for tredje h1-element */
+    animation: shadow-animation-3 12s infinite; 
     animation-delay: 8s; 
 }
-
-
 
 @media screen and (min-width: 768px) {
     .engage-info {

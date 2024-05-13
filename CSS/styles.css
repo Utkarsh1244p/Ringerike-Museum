@@ -32,6 +32,10 @@ main {
     flex: 1;
 }
 
+h1, h2 {
+    font-family: var(--font-roboto);
+}
+
 /*Utility classes*/
 
 .rounded-corner {
