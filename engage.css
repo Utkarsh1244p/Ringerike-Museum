@@ -39,6 +39,11 @@
     margin: 2rem 0;
 }
 
+.fifth-item img, .first-item img {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
 @keyframes shadow-animation-1 {
     0% {
         text-shadow: none; 
@@ -140,5 +145,9 @@
 
 .engage-introduction > p {
     margin-bottom: 3rem;
+}
+
+.first-item img, .fifth-item img {
+    aspect-ratio: 1;
 }
 }
