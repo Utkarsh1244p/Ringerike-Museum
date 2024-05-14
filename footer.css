@@ -1,0 +1,92 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    --mask:
+    radial-gradient(40.31px at 50% 55px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 100%,
+    radial-gradient(40.31px at 50% -35px,#0000 99%,#000 101%) 50% 20px/80px 100% repeat-x;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.so-me {
+    padding-right: 1.5rem;
+}
+
+.so-me-links {
+    padding: 0 0 1.5rem 1rem;
+}
+
+.footer-item {
+    padding: 0.5rem;
+}
+
+.so-me:hover {
+    color: var(--color-pink);
+    cursor: pointer;
+}
+
+.arrow {
+    color: var(--color-pink);
+    margin-right: 0.5rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+}
+
+.footer-links > a {
+    display: block;
+    padding: 1rem;
+}
+
+.footer-links1 a:hover, .footer-links2 a:hover {
+    color: var(--color-pink);
+}
+
+.footer-links2 {
+    padding-right: 1rem;
+}
+
+.footer-links1, .footer-links2, footer h2 {
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 380px) {
+    footer h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .so-me-links {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 2rem 0;
+    }
+
+    .so-me-links {
+        padding: 0 0 1.5rem 2rem;
+    }
+
+    .footer-links1 {
+        margin-left: auto;
+    }
+
+    .footer-links1, .footer-links2 {
+        place-self: center;
+    }
+}

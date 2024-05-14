@@ -1,0 +1,98 @@
+.visit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.visit-flex1, .visit-flex2 {
+    margin: 3rem;
+}
+
+.visit-flex2 {
+    margin-bottom: 0;
+}
+
+.visit-info {
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    border: 5px solid var(--color-pink);
+    border-radius: .5rem;
+    width: fit-content;
+    padding: 0 3rem 3rem 2rem;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: var(--color-pink);
+    text-align: center;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background-color: #f13a58;
+    cursor: pointer;
+}
+
+.visit-introduction {
+    margin-bottom: 3rem;
+}
+
+.opening-hours {
+    max-width: fit-content;
+    border: 5px solid var(--color-yellow);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.opening-hours h2, .opening-hours p {
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .visit-flex1 {
+        display: flex;
+    }
+
+    .visit-introduction {
+        width: 50%;
+    }
+
+    .visit-flex2 {
+        display: flex;
+    }
+
+    .visit-info {
+        width: 50%;
+    }
+    
+    .contact-form {
+        height: fit-content;
+        place-self: center;
+    }
+}

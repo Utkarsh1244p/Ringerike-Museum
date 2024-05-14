@@ -1,0 +1,17 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui;
+  }
+
+  img {
+    font-style: italic;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
