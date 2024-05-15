@@ -57,7 +57,6 @@
     scroll-behavior: smooth;
     border-radius: 0.5rem;
     overflow-x: hidden;
-    scroll-padding: 1rem;
     height: auto;
 }
 
@@ -95,6 +94,7 @@
 
 .slider-wrapper {
     height: fit-content;
+    margin: 0 auto;
 }
 
 .slider-nav {
