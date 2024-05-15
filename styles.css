@@ -12,12 +12,17 @@
 
 body {
     width: 100%;
-    font-family: "Barlow Semi Condensed";
+    font-family: "Outfit";
+    line-height: 1.5;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 } 
+
+header {
+    font-family: "Outfit";
+}
 
 figure {
     margin: 0;
@@ -33,7 +38,7 @@ main {
 }
 
 h1, h2 {
-    font-family: var(--font-roboto);
+    font-family: ;
 }
 
 /*Utility classes*/
@@ -92,30 +97,17 @@ h1, h2 {
 
 /*Font styles*/
 
-.barlow-semi-condensed-light {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 .patua-one-regular {
     font-family: "Patua One", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.roboto-mono-bold {
-    font-family: "Roboto Mono", monospace;
+.outfit-light {
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
-}
-
-.schibsted-grotesk-medium{
-  font-family: "Schibsted Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
 @media screen and (min-width: 768px) {
