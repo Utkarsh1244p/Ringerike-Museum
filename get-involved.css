@@ -1,69 +1,84 @@
 .gi-introduction img {
-    aspect-ratio: 32 / 9;
-    object-fit: cover;
+  aspect-ratio: 32 / 9;
+  object-fit: cover;
 }
 
 .gi-text {
-    margin: 3rem auto;
-    width: fit-content;
+  margin: 3rem auto;
+  width: fit-content;
 }
 
 .gi-text h1 {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+#outfit,
+#outfit-two,
+#outfit-three,
+#outfit-four {
+  font-family: "Outfit";
 }
 
 .gi-introduction {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .gi-cards article:nth-child(1) {
-    background: rgb(255,84,112);
-    background: linear-gradient(0deg, rgba(255,84,112,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(255, 84, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 84, 112, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .gi-cards article:nth-child(2) {
-    background: rgb(0,235,199);
-    background: linear-gradient(0deg, rgba(0,235,199,1) 0%, rgba(255,255,255,1) 100%);  
+  background: rgb(0, 235, 199);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 235, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .gi-cards article:nth-child(3) {
-    background: rgb(253,226,79);
-    background: linear-gradient(0deg, rgba(253,226,79,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(253, 226, 79);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 226, 79, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
-.gi-introduction h1, .gi-cards h2 {
-    font-family: "Roboto Mono";
+.gi-introduction h1,
+.gi-cards h2 {
+  font-family: "Roboto Mono";
 }
 
 .gi-cards article {
-    padding: 1rem 1.5rem;
-    margin: 1rem 10%;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
+  padding: 1rem 1.5rem;
+  margin: 1rem 10%;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
 
-
 @media screen and (min-width: 900px) {
-    .gi-cards {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 2rem;
-    }
-    .gi-cards article {
-        padding: 1rem 1.5rem;
-        margin: 1rem 0.5rem;
-        max-width: 30%;
-    }
+  .gi-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+  .gi-cards article {
+    padding: 1rem 1.5rem;
+    margin: 1rem 0.5rem;
+    max-width: 30%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .gi-cards {
-        margin: 0 5rem;
-    }
+  .gi-cards {
+    margin: 0 5rem;
+  }
 }
-
-
-
-
