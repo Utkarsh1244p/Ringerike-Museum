@@ -8,8 +8,6 @@
 }
 
 .card-second {
-  /*
-    flex: 1 0 100%;*/
   flex: 0 0 auto;
   width: 100%;
   scroll-snap-align: start;
@@ -26,7 +24,7 @@
   width: 100%;
 }
 
-.card-second > .card-text > h3 {
+.card-second > .card-text > h2 {
   text-align: center;
   margin-top: 1rem;
 }

@@ -15,7 +15,11 @@
 #outfit,
 #outfit-two,
 #outfit-three,
-#outfit-four {
+#outfit-four,
+#outfit-five,
+#outfit-six,
+#outfit-seven,
+#outfit-eight {
   font-family: "Outfit";
 }
 
@@ -53,6 +57,10 @@
 .gi-introduction h1,
 .gi-cards h2 {
   font-family: "Roboto Mono";
+}
+
+.gi-cards h2 {
+  align-self: center;
 }
 
 .gi-cards article {
