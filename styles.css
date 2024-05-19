@@ -9,113 +9,110 @@
 @import url(nav.css);
 @import url(footer.css);
 
-
 body {
-    width: 100%;
-    font-family: "Outfit";
-    line-height: 1.5;
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} 
+  width: 100%;
+  font-family: "Outfit";
+  line-height: 1.5;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 header {
-    font-family: "Outfit";
+  font-family: "Outfit";
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
-  
+
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
 /*Utility classes*/
 
 .rounded-corner {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 .circle {
-    border-radius: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .block {
-    display: block;
+  display: block;
 }
 
 .padding {
-    padding: 0 10%;
+  padding: 0 10%;
 }
 
 .hide {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .yellow-border {
-    border: 5px solid #FDE24F;
-    border-radius: 25px;
-    padding: 0 1.5rem;
+  border: 5px solid #fde24f;
+  border-radius: 25px;
+  padding: 0 1.5rem;
 }
 
 .pink-border {
-    border: 5px solid #FF5470;
-    border-radius: 25px;
-    padding: 0 1.5rem;
+  border: 5px solid #ff5470;
+  border-radius: 25px;
+  padding: 0 1.5rem;
 }
 
 .aqua-border {
-    border: 5px solid #00EBC7;
-    border-radius: 25px;
-    padding: 0 1.5rem;
+  border: 5px solid #00ebc7;
+  border-radius: 25px;
+  padding: 0 1.5rem;
 }
 
 /*Font styles*/
 
 .patua-one-regular {
-    font-family: "Patua One", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .outfit-light {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media screen and (min-width: 768px) {
-    .hidden {
-        display: block;
-    }
+  .hidden {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .padding {
-        padding: 0 20%;
-    }
+  .padding {
+    padding: 0 20%;
+  }
 }
-
-

@@ -37,14 +37,22 @@
   align-self: center;
   border: 1px solid var(--color-aqua);
 }
-/*
-#ex-nav {
-    top: 0rem;
-}*/
 
 @media screen and (min-width: 600px) {
   .exhibitions-introduction h1 {
     font-size: 1.7rem;
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-second > img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-second > img {
+    width: 60%;
   }
 }
