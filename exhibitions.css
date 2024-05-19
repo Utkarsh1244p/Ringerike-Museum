@@ -1,7 +1,3 @@
-.exhibitions-introduction h1 {
-  font-size: 1.3rem;
-}
-
 .exhibitions-introduction p {
   padding: 0 10%;
   margin-bottom: 3rem;
@@ -54,5 +50,9 @@
 @media screen and (max-width: 900px) {
   .card-second > img {
     width: 60%;
+  }
+
+  .exhibitions-introduction h1 {
+    text-align: center;
   }
 }
