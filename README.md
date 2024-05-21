@@ -2,6 +2,11 @@
 
 Welcome to the Ringerike-Museum project repository! This project aims to provide an interactive and informative website for the Ringerike Museum, showcasing exhibitions, engagement opportunities, visitor information, and more.
 
+## Viewing The Website
+
+You can view the deployed Ringerike-Museum website at the following link:
+https://utkarsh1244p.github.io/Ringerike-Museum/
+
 ## Technologies Used
 
 - HTML
