@@ -11,7 +11,6 @@ https://utkarsh1244p.github.io/Ringerike-Museum/
 
 - HTML
 - CSS
-- Bootstrap
 
 ## Pages
 
